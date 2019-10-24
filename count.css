@@ -1,0 +1,25 @@
+.load{
+		display:none;
+		position:absolute;
+		width:80%;
+		height: 300px;
+		background:yellow;
+		border-radius: 8px; 
+		box-shadow: 4px 5px 9px grey; 
+		left:30px;
+		top:50px;
+		z-index:1;
+	}
+	.pikin{
+		float: right;
+		font-size: 25px;
+		color:black;
+		
+	}
+	.reduce{
+		   font-family: 'Segment7Standard'; 
+		font-size:140px; 
+		font-weight:0 bold; 
+		position:absolute;
+		left:40%;
+	}
