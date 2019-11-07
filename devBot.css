@@ -1,0 +1,50 @@
+
+img{
+	
+	width:45%;
+	height:auto;
+	top:60;
+	border-radius: 50%
+	
+	
+}
+	.out{
+font-size:25px;
+font-weight: bold; 
+	}
+	#reply{
+font-weight: bold; 
+	}
+	.card{
+	
+	box-shadow: inset 2px 2px 19px 2px grey; 
+	width:105%;
+	border-radius:15px
+	}
+	#assist{
+border-radius:15px 0 15px 0;
+	}
+	h4{
+margin:20px
+	}
+	audio,#print{
+display:none;
+	}
+	h6{
+margin:30px; 
+font-weight: bold; 
+	}
+	#cancel{
+float:right;
+font-size:25px;
+	}
+	.alert{
+position:abaolute;
+z-index:1;
+top:10;
+display:none;
+	}
+	.btn-danger{
+height:40px;
+border-radius:0 0 9px 9px;
+	}

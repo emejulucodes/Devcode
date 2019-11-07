@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="w3.css">
+<script src="jquery.js"></script>
+<link rel="stylesheet" href="devBot.css">
+<meta name="viewport" content="width=device-width, scale='1'">
+<script src="jquery.js"></script>
+
+</head>
+<body onload="introl()">
+		<h6></h6>
+	<div class="row">
+		<div class="col-sm-8 col-xs-8">
+		<br>
+		
+			<div class="w3-container">
+				<div class="card">
+				<span class="w3-teal" id="assist"><h4><b>ROH-BOT</b></h4></span>
+		<center>
+			
+			<input type="text" class="form-control">
+				<br>
+				
+					<p id="reply"></p>
+					<div class="out">
+						
+							
+					</div>
+				
+		<img src="voice.png" onclick="voice()">
+		<br>
+		<img src="yhoung.jpg" class="img-thumbnail" id="print">
+					<div class="help">
+				<div class="alert alert-success">
+				<span id="cancel" class="pull-left" onclick="this.parentElement.style.display='none'"><b>&times;</b></span><br>
+					<b><u>KEYWORDS</u></b><br>
+					<i><b>say the following below keywords</b></i>
+					<b>	PLAY</b>: this will play am audio track
+					<b>	PHOTO</b>: show photo of the developer
+					<b>	BLACK</b>: gives it dark theme 
+					<b>	WHITE</b>: gives it white theme
+					<b>	TIME</b> : shows your current time
+				
+			</div>
+			</div>
+			<audio src="mem.mp3" controls>
+		</center>
+			<button class="btn btn-danger" onclick="help()"><b>HELP</b></button>
+			</div>
+	</div>
+	</div>
+		<script type="text/javascript">
+		function help(){
+			var help=document.querySelector(".alert");
+			help.style.display='block'; 
+		}
+		</script>
+		</div>
+		<script src="devBot.js"></script>
+</body>
+</html>
